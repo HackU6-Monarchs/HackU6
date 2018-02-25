@@ -4,7 +4,7 @@ import googlemaps
 import numpy as np
 import re
 
-google_maps = googlemaps.Client(key='AIzaSyBs072jMQc_jZQF8ePeyVrhGk0HGyKFMXA')
+google_maps = googlemaps.Client(key='API_KEY')
 
 def google_lookup(lon, lat):
     temp = []
